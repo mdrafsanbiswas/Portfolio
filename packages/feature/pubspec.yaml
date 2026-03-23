@@ -1,0 +1,19 @@
+name: feature
+description: Feature layer package (UI and feature-specific state).
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ^3.10.9
+
+dependencies:
+  flutter:
+    sdk: flutter
+  core:
+    path: ../core
+  domain:
+    path: ../domain
+  url_launcher: ^6.3.2
+
+flutter:
+  uses-material-design: true

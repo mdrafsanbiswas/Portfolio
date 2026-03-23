@@ -1,0 +1,9 @@
+name: portfolio_web_monorepo
+packages:
+  - packages/**
+
+scripts:
+  analyze:
+    run: melos exec -- "flutter analyze"
+  test:
+    run: melos exec -- "flutter test"

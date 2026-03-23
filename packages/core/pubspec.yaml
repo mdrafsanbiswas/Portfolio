@@ -1,0 +1,14 @@
+name: core
+description: Shared core package (theme, tokens, reusable UI primitives).
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ^3.10.9
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
